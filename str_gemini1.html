@@ -3,47 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Judul Halaman Web Anda</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Struktur Halaman Web</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        header, nav, article, footer {
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        header {
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav {
+            background-color: #e6ffe6;
+            flex: 1; /* Mengambil 1 bagian dari ruang yang tersedia */
+        }
+
+        .articles {
+            flex: 3; /* Mengambil 3 bagian dari ruang yang tersedia */
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        article {
+            background-color: #fff5e6;
+        }
+
+        footer {
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Nama Situs Web Anda</h1>
-        </header>
+        <h1>Header</h1>
+    </header>
 
-    <nav>
-        <ul>
-            <li><a href="#beranda">Beranda</a></li>
-            <li><a href="#tentang">Tentang Kami</a></li>
-            <li><a href="#layanan">Layanan</a></li>
-            <li><a href="#kontak">Kontak</a></li>
-        </ul>
-    </nav>
+    <div class="container">
+        <nav>
+            <h2>Navigation</h2>
+            <ul>
+                <li>Link 1</li>
+                <li>Link 2</li>
+                <li>Link 3</li>
+            </ul>
+        </nav>
 
-    <main>
-        <section id="beranda">
-            <h2>Selamat Datang di Situs Kami</h2>
-            <p>Ini adalah bagian pengenalan atau konten utama dari beranda.</p>
-        </section>
-
-        <section id="tentang">
-            <h2>Tentang Kami</h2>
-            <p>Ceritakan kisah, visi, dan misi perusahaan atau diri Anda di sini.</p>
-        </section>
-
-        <section id="layanan">
-            <h2>Layanan Kami</h2>
-            <p>Jelaskan produk atau layanan yang Anda tawarkan.</p>
-        </section>
-
-        <section id="kontak">
-            <h2>Hubungi Kami</h2>
-            <p>Sertakan formulir kontak, alamat email, atau nomor telepon di sini.</p>
-        </section>
-    </main>
+        <main class="articles">
+            <article>
+                <h2>Article 1</h2>
+                <p>Konten artikel pertama...</p>
+            </article>
+            <article>
+                <h2>Article 2</h2>
+                <p>Konten artikel kedua...</p>
+            </article>
+            <article>
+                <h2>Article 3</h2>
+                <p>Konten artikel ketiga...</p>
+            </article>
+        </main>
+    </div>
 
     <footer>
-        <p>&copy; 2025 Nama Situs Web Anda. Hak Cipta Dilindungi.</p>
+        <p>Footer</p>
     </footer>
 </body>
 </html>
