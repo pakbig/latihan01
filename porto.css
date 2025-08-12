@@ -35,6 +35,36 @@ header nav ul li {
 }
 
 header nav a {
-    color:darksalmon;
+    color:rgb(212, 221, 235);
     text-decoration: none;
+}
+
+#hero {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+#hero h2 {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background-color: darkgreen;
+    color: rgb(204, 212, 194);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+section h2 {
+    margin-bottom: 2rem;
+}
+
+#projects .container {
+    
 }
