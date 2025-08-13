@@ -14,7 +14,8 @@ body {
 header {
     background-color: rgb(149, 142, 156);
     color: white;
-    padding: 1rem 0;
+    padding: 1rem 0; 
+    /* satuan 1rem = 16px */
 }
 
 header .container {
