@@ -1,51 +1,42 @@
-<style>
+body {
+  background-color: white;
+  font-family: poppins, sans-serif;
+  color: #333;
+}
 
-    body {
-            font-family: sans-serif;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
+header,
+nav,
+article,
+footer {
+  padding: 20px;
+  border: 3px solid #f19898;
+  border-radius: 5px;
+  margin: 10px;
+}
 
-        header, nav, article, footer {
-            padding: 20px;
-            border: 3px solid #f19898;
-            border-radius: 5px;
-        }
-    </style>
-<!-- <style>
-    
-        header {
-            background-color: #f0f0f0;
-            text-align: center;
-        }
+.container {
+  display: flex;
+  gap: 20px;
+}
 
-        .container {
-            display: flex;
-            gap: 20px;
-        }
+nav {
+  background-color: #e6ffe6;
+  flex: 1; /* Mengambil 1 bagian dari ruang yang tersedia */
+}
 
-        nav {
-            background-color: #e6ffe6;
-            flex: 1; /* Mengambil 1 bagian dari ruang yang tersedia */
-        }
+.articles {
+  flex: 3; /* Mengambil 3 bagian dari ruang yang tersedia */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
-        .articles {
-            flex: 3; /* Mengambil 3 bagian dari ruang yang tersedia */
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-        
-        article {
-            background-color: #fff5e6;
-        }
+article {
+  background-color: #fff5e6;
+}
 
-        footer {
-            background-color: #f0f0f0;
-            text-align: center;
-        }
-    </style>
-     -->
+footer {
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
