@@ -33,7 +33,7 @@ body {
     font-weight: 700;
 }
 
-.navbar {
+.navbar a {
     font-size: 1.15rem;
     color: #fff;
     text-decoration: none;
