@@ -11,3 +11,12 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    padding: 1.3rem 10%;
+    background: black;
+}
